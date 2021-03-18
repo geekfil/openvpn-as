@@ -16,6 +16,7 @@ description:
     The Public IP and Firewall will be activated for your environment automatically.
 
 targetNodes:
+  dockerOs: centos
   nodeType: [
     'tomcat6', 'tomcat7', 'tomcat8', 'tomcat85', 'tomcat9', 'tomcat',
     'tomee', 'tomee-dockerized',
